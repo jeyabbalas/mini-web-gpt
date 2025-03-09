@@ -1,0 +1,20 @@
+{
+  "name": "mini-web-gpt",
+  "version": "0.0.0",
+  "type": "module",
+  "files": ["dist"],
+  "module": "./dist/mini-web-gpt.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
