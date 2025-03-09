@@ -1,9 +1,12 @@
 import './style.css'
-import {test} from "../lib/main.js";
+import {Tensor} from "../lib/main.js";
+
+
+const t = new Tensor([2, 3], true);
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <h1>${test()}</h1>
+    <p>${t}</p>
   </div>
 `
 
