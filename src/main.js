@@ -2,7 +2,7 @@ import './style.css'
 import {Tensor} from "../lib/main.js";
 
 
-const t = new Tensor([[1, 2, 3], [4, 5, 6]]);
+const t = Tensor.randn([2, 3]);
 console.log(t.toString());
 console.log(t.data);
 console.log(t.shape);
